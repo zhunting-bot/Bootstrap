@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Skate! Newsletter</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="#">Current issue</a>
+      <a class="nav-link" href="#">Past issues</a>
+      <a class="nav-link" href="#">Follow us</a>
+    </div>
+  </div>
+</nav>
+
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1>A rundown of top new skateboard decks</h1>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <button class="btn btn-dark">Read now</button>
+    </div>
+
+    <div class="col-md-6">
+      <img src="img/skateboards.jpg" class="img-fluid" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <img src="img/skater1.jpg" class="img-fluid">
+      <button class="btn btn-dark mt-3">Read now</button>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <img src="img/skater2.jpg" class="img-fluid">
+      <button class="btn btn-dark mt-3">Read now</button>
+    </div>
+  </div>
+</section>
+
+<section class="container text-center py-5">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Read</h3>
+      <p>Read stories from our archive.</p>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Contact</h3>
+      <p>Ask us a question.</p>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Follow</h3>
+      <p>Follow us on Facebook or Twitter.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light py-3">
+  <div class="container">
+    This is a bootstrap exercise
+  </div>
+</footer>
