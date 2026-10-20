@@ -1,114 +1,65 @@
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Skate! Newsletter</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="#">Current issue</a>
+      <a class="nav-link" href="#">Past issues</a>
+      <a class="nav-link" href="#">Follow us</a>
+    </div>
+  </div>
+</nav>
 
-            <div class="col-10 col-sm-8 col-lg-6">
-                https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80
-            </div>
-
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold mb-3">
-                    Skate! Newsletter
-                </h1>
-
-                <p class="lead">
-                    Stay up to date with skate culture, new gear,
-                    featured skaters, competitions, and tricks from
-                    around the world.
-                </p>
-
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button"
-                            class="btn btn-dark btn-lg px-4">
-                        Subscribe Now
-                    </button>
-                </div>
-            </div>
-
-        </div>
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1>A rundown of top new skateboard decks</h1>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <button class="btn btn-dark">Read now</button>
     </div>
 
-    <!-- Two Column Section -->
-    <div class="container">
+    <div class="col-md-6">
+      <img src="img/skateboards.jpg" class="img-fluid" alt="">
+    </div>
+  </div>
+</section>
 
-        <div class="row">
-
-            <div class="col-md-6 feature-col">
-                <h2>Featured Skaters</h2>
-
-                <p>
-                    Meet the skaters pushing the limits and shaping
-                    the future of the sport.
-                </p>
-
-                https://images.unsplash.com/photo-1572776685600-aca8c3456337?ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80
-
-                <br><br>
-
-                <button class="btn btn-dark">
-                    Read More
-                </button>
-            </div>
-
-            <div class="col-md-6 feature-col">
-                <h2>Latest Gear</h2>
-
-                <p>
-                    Check out decks, trucks, wheels, and apparel
-                    reviewed by our community.
-                </p>
-
-                https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&w=1200&q=80
-
-                <br><br>
-
-                <button class="btn btn-dark">
-                    View Reviews
-                </button>
-            </div>
-
-        </div>
-
-        <!-- Three Column Section -->
-        <div class="row">
-
-            <div class="col-md-4 text-center">
-                <i class="bi bi-newspaper icon"></i>
-                <h3>News</h3>
-                <p>
-                    Weekly updates from the skateboarding world.
-                </p>
-            </div>
-
-            <div class="col-md-4 text-center">
-                <i class="bi bi-camera icon"></i>
-                <h3>Photos</h3>
-                <p>
-                    Explore galleries from competitions and events.
-                </p>
-            </div>
-
-            <div class="col-md-4 text-center">
-                <i class="bi bi-people icon"></i>
-                <h3>Community</h3>
-                <p>
-                    Connect with skaters and share your experiences.
-                </p>
-            </div>
-
-        </div>
-
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <img src="img/skater1.jpg" class="img-fluid">
+      <button class="btn btn-dark mt-3">Read now</button>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer mt-auto py-3 bg-dark">
-        <div class="container">
-            <span class="text-muted">
-                This is a bootstrap exercise
-            </span>
-        </div>
-    </footer>
+    <div class="col-md-6 text-center">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <img src="img/skater2.jpg" class="img-fluid">
+      <button class="btn btn-dark mt-3">Read now</button>
+    </div>
+  </div>
+</section>
 
-    https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.jsscript>
+<section class="container text-center py-5">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Read</h3>
+      <p>Read stories from our archive.</p>
+    </div>
 
-</body>
-</html>
+    <div class="col-md-4">
+      <h3>Contact</h3>
+      <p>Ask us a question.</p>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Follow</h3>
+      <p>Follow us on Facebook or Twitter.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light py-3">
+  <div class="container">
+    This is a bootstrap exercise
+  </div>
+</footer>
